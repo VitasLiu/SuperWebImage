@@ -13,6 +13,7 @@
 		7937B6DF1DBC800B0034A6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7937B6DD1DBC800B0034A6A9 /* Main.storyboard */; };
 		7937B6E11DBC800B0034A6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7937B6E01DBC800B0034A6A9 /* Assets.xcassets */; };
 		7937B6E41DBC800B0034A6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7937B6E21DBC800B0034A6A9 /* LaunchScreen.storyboard */; };
+		7937B6EE1DBC81FF0034A6A9 /* DownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7937B6ED1DBC81FF0034A6A9 /* DownloaderOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7937B6E01DBC800B0034A6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7937B6E31DBC800B0034A6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7937B6E51DBC800B0034A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7937B6EC1DBC81FF0034A6A9 /* DownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderOperation.h; sourceTree = "<group>"; };
+		7937B6ED1DBC81FF0034A6A9 /* DownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloaderOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		7937B6D31DBC800B0034A6A9 /* SuperWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				7937B6EB1DBC81B30034A6A9 /* SPWebImage */,
 				7937B6D71DBC800B0034A6A9 /* AppDelegate.h */,
 				7937B6D81DBC800B0034A6A9 /* AppDelegate.m */,
 				7937B6DA1DBC800B0034A6A9 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				7937B6D51DBC800B0034A6A9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7937B6EB1DBC81B30034A6A9 /* SPWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				7937B6EC1DBC81FF0034A6A9 /* DownloaderOperation.h */,
+				7937B6ED1DBC81FF0034A6A9 /* DownloaderOperation.m */,
+			);
+			path = SPWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7937B6EE1DBC81FF0034A6A9 /* DownloaderOperation.m in Sources */,
 				7937B6DC1DBC800B0034A6A9 /* ViewController.m in Sources */,
 				7937B6D91DBC800B0034A6A9 /* AppDelegate.m in Sources */,
 				7937B6D61DBC800B0034A6A9 /* main.m in Sources */,
