@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "NSString+path.h"
 
 @interface DownloaderOperation : NSOperation
+
++ (instancetype)downloadWithURLStr:(NSString *)URLStr successBlock:(void(^)(UIImage *image))successBlock;
 
 @end
